@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online d20 roller for d&d</title>
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <h1>Your turn to ROLL!!</h1>
+    <p class="separator"></p>
+    <div id="inputs">
+        <input type="number" required id="numDice" min="1" max="60">
+        <label for="rollBtn" id="btnLbl">d20</label>
+        <button id="rollBtn" onclick="getVal()">ROLL!</button>
+    </div>
+    <textarea id="jsRoll" readonly></textarea>
+    <button id="resetBtn" onclick="reset()">Reset!</button>
+</body>
+</html>

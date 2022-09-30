@@ -1,0 +1,88 @@
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #0077DD;
+    border-radius: 5px;
+    background-color: #001122;
+    color: #0077DD;
+}
+
+.separator {
+    border-bottom-width: 3px;
+    border-color: #0077DD;
+    border-bottom-style: solid;
+}
+
+#inputs {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: #0077DD;
+    padding: 10px 0px 10px 75px;
+    background-color: #001122;
+}
+
+#numDice {
+    width: 50px;
+    height: 25px;
+    border-radius: 8px;
+    border-color: #0077DD;
+}
+
+#btnLbl {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0077DD;
+}
+
+#rollBtn {
+    color: #0077DD;
+    background-color: #002244;
+    border-color: #0077DD;
+    border-radius: 8px;
+}
+
+body {
+    background-color: #000000;
+}
+
+#jsRoll {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #0077DD;
+    border-radius: 5px;
+    background-color: #001122;
+    color: #0077DD;
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+#resetBtn {
+    display: block;
+    width: 100px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    color: #0077DD;
+    background-color: #002244;
+    border-radius: 15px;
+    border-width: 3px;
+    border-color: #0077DD;
+    text-align: center;
+    font-size: 15px;
+}
